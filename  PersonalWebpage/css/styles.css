@@ -1,0 +1,292 @@
+body {
+  color: #40514E;
+  margin-top: 40px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  background-color: #b2bec3; /*am palette*/
+}
+
+h1 {
+  color: white;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Roboto', sans-serif; /*font electromagnetic brit pallette*/
+  padding-top: 50px;
+  text-shadow: 5px 4px #2d3436;
+ 
+}
+
+h1:hover{
+  color: white;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Roboto', sans-serif; /*font electromagnetic brit pallette*/
+  padding-top: 50px;
+  text-decoration: underline;
+ 
+
+}
+
+#h2{
+  color:white;
+  text-shadow: 3px 2px #2d3436;
+}
+
+h2 {
+  color: #2f3640;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 5px;
+  padding-top:10px;
+}
+
+h2:hover{
+  color: #2f3640;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 5px;
+  padding-top:10px;
+  text-decoration: underline;
+
+}
+
+h3 {
+  color: #2f3640;
+  font-family: 'Roboto', sans-serif;
+}
+
+p{
+  line-height: 2;
+  font-size:30px;
+  width:80%;
+}
+
+hr {
+  border: dotted  #2d3436 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a{
+  color: #2d3436;
+  font-family: 'Roboto', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.top-container {
+  width: 100%;
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 55px;
+  left:0;
+  right:0;
+  min-height:950px;
+  width:auto;
+  
+} 
+
+ .middle-container {
+  margin: 100px 0;
+}
+
+
+.bottom-container {
+  background-color: #2d3436;
+  padding: 50px 0 20px;
+ offset: relative;
+  left:0;
+ bottom:0;
+ right:0;
+ width:100%;
+}
+
+.skill{
+  width: 80%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 80%;
+  margin: auto;
+}
+
+.comments {
+  width: 40%;
+  margin: 40px auto 60px 20px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px ;
+  text-align: center;
+  width:100%;
+}
+
+
+
+.code-img {
+  width: 30%;
+  height:21rem;
+  float: left;
+  margin-right: 30px;
+}
+
+.book-img {
+  width: 40%;
+  height: 26rem;
+  float: right;
+  margin-left: 0px;
+}
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #2d3436;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  left:0;
+}
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.topnav a:hover {
+  background-color:#636e72;
+  color: white;
+}
+
+.profile
+{
+  height:500px;
+  width:500px;
+  height:auto;
+  border-radius: 50%;
+    border-style:solid;
+    border-width:10px;
+    border-color:#2d3436 ;
+    transition: border 0.5s, width 0.25s, height 0.25s;
+}
+
+.profile:hover{
+
+
+  height:520px;
+  width:520px;
+  height:auto;
+  border-radius: 50%;
+  border-style:solid;
+  border-width:10px;
+  
+  border-color:#636e72 ;
+  
+
+}
+
+#books
+{
+  font-size: 2rem;
+}
+
+.link{
+  height:50px;
+  width:50px;
+}
+
+.link:hover{
+  height:55px;
+  width:55px;
+  transition: width 0.1s,height 0.1s;
+}
+
+#p3{
+  text-align: center;
+}
+
+.imga{
+float: left;
+width:23%;
+height:22rem;
+border-color:#2d3436;
+border-radius: 50%;
+border-width: 5px;
+border-style: solid;
+}
+
+.imgb{
+  float: right;
+  width:25%;
+  height:23rem;
+
+
+}
+
+#h2b{
+  text-align: center;
+}
+
+#words{
+  color: #2d3436;
+  font-family: 'Roboto', sans-serif;
+  border: 4px solid #2d3436;
+  border-radius: 8px;
+  font-size:20px;
+}
+
+#p4{
+  line-height: 1;
+  font-size:15px;
+  width:80%;
+  text-align: centre;
+}
+
+#button{
+  border: 4px solid #2d3436;
+  border-radius: 8px;
+  height:3rem;
+  width:10%;
+  color: #2d3436;
+  font-family: 'Roboto', sans-serif;
+  background-color: #636e72; 
+  text-align:center;
+    text-decoration: none;
+    display: inline-block;
+    font-size:20px;
+    color:white;
+  
+  
+}
+
+#button:hover {
+  background-color: #2d3436; 
+  color: white;
+}
+
+
+
