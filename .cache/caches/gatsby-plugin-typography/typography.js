@@ -1,0 +1,1 @@
+module.exports = require("/Users/japneet/Desktop/blog/src/utils/typography")
